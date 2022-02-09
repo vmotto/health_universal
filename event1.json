@@ -1,0 +1,52 @@
+{
+    "eventId": "356039436-106868281",
+    "alert": {
+        "dateStartZoned": "2022-02-07 16:20:00 UTC",
+        "apiLinks": [
+            {
+                "rel": "related",
+                "href": "https://api.thousandeyes.com/v4/tests/2559361"
+            },
+            {
+                "rel": "data",
+                "href": "https://api.thousandeyes.com/v4/web/web-transactions/2559361"
+            }
+        ],
+        "testLabels": [
+            {
+                "id": 303291,
+                "name": "MSFT365"
+            }
+        ],
+        "active": 0,
+        "ruleExpression": "Transaction Time ≥ 6,000 ms or Transaction Completion timed out or Error is present",
+        "dateEnd": "2022-02-07 16:35:00",
+        "type": "Web Transactions",
+        "ruleAid": 221591,
+        "agents": [
+            {
+                "dateStart": "2022-02-07 16:20:00",
+                "dateEnd": "2022-02-07 16:25:00",
+                "active": 0,
+                "metricsAtStart": "Transaction Time: 10,020 ms",
+                "metricsAtEnd": "Transaction Time: 4,296 ms",
+                "permalink": "https://app.thousandeyes.com/alerts/list/?__a=221591&alertId=106868281&agentId=276031",
+                "agentId": 276031,
+                "agentName": "TE-NARAMA-ISP1"
+            }
+        ],
+        "testTargetsDescription": [
+            "https://excel.office.com"
+        ],
+        "violationCount": 1,
+        "dateStart": "2022-02-07 16:20:00",
+        "dateEndZoned": "2022-02-07 16:35:00 UTC",
+        "ruleName": "Transaction_Alert_rzhu",
+        "testId": 2559361,
+        "alertId": 106868281,
+        "ruleId": 1452986,
+        "permalink": "https://app.thousandeyes.com/alerts/list/?__a=221591&alertId=106868281",
+        "testName": "MSFT-Excel-Login"
+    },
+    "eventType": "ALERT_NOTIFICATION_CLEAR"
+}

@@ -1,0 +1,49 @@
+{
+    "eventId": "354281696-106608200",
+    "alert": {
+        "dateStartZoned": "2022-02-05 04:25:00 UTC",
+        "apiLinks": [
+            {
+                "rel": "related",
+                "href": "https://api.thousandeyes.com/v4/tests/2559361"
+            },
+            {
+                "rel": "data",
+                "href": "https://api.thousandeyes.com/v4/web/web-transactions/2559361"
+            }
+        ],
+        "testLabels": [
+            {
+                "id": 303291,
+                "name": "MSFT365"
+            }
+        ],
+        "active": 1,
+        "ruleExpression": "Transaction Time ≥ 6,000 ms or Transaction Completion timed out or Error is present",
+        "type": "Web Transactions",
+        "ruleAid": 221591,
+        "agents": [
+            {
+                "dateStart": "2022-02-05 04:25:00",
+                "active": 1,
+                "metricsAtStart": "Transaction Time: 6,068 ms",
+                "metricsAtEnd": "",
+                "permalink": "https://app.thousandeyes.com/alerts/list/?__a=221591&alertId=106608200&agentId=60420",
+                "agentId": 60420,
+                "agentName": "Hong Kong (Azure eastasia)"
+            }
+        ],
+        "testTargetsDescription": [
+            "https://excel.office.com"
+        ],
+        "violationCount": 1,
+        "dateStart": "2022-02-05 04:25:00",
+        "ruleName": "Transaction_Alert_rzhu",
+        "testId": 2559361,
+        "alertId": 106608200,
+        "ruleId": 1452986,
+        "permalink": "https://app.thousandeyes.com/alerts/list/?__a=221591&alertId=106608200",
+        "testName": "MSFT-Excel-Login"
+    },
+    "eventType": "ALERT_NOTIFICATION_TRIGGER"
+}
